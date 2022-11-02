@@ -4,34 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sebastian Campó</title>
+    <title>Sebastian Campo</title>
 
     <link rel="stylesheet" href="./index.css" />
+
+    <script defer src="./components/navbar/navbar.js"></script>
+    <link rel="stylesheet" href="./components/navbar/navbar.css" />
+
+    <link rel="stylesheet" href="./components/home/home.css" />
+
+    <link rel="stylesheet" href="./components/experiencies/experiencies.css" />
+
+    <script defer src="./index.js"></script>
   </head>
   <body>
     <section class="navbar">
       <div class="navbar__container">
         <div class="navbar__brand">
-          <p class="brand__p">SC</p>
+          <p class="brand__brand-el">SC</p>
         </div>
         <div class="navbar__hamb">
           <div class="burger-stick"></div>
           <div class="burger-stick"></div>
           <div class="burger-stick"></div>
         </div>
-      </div>
-      <div class="navbar__modal-menu">
-        <div class="modal-menu__home">Home</div>
-        <div class="modal-menu__home">Sobre Mi</div>
-        <div class="modal-menu__home">Experiencias</div>
+        <div class="navbar__modal-menu">
+          <div class="modal-menu__close-btn">X</div>
+          <div class="modal-menu__home"><b>Inicio</b></div>
+          <div class="modal-menu__about"><b>Sobre mi</b></div>
+          <div class="modal-menu__experiencies"><b>Experiencias</b></div>
+          <div class="modal-menu__contact"><b>Contacto</b></div>
+        </div>
       </div>
     </section>
 
-    <section class="header"></section>
+    <section class="home">
+      <div class="home__container">
+        <div class="home__portrait-div">
+          <img src="./src/port-placeholder.png" alt="" class="home__img" />
+        </div>
 
-    <section class="about"></section>
+        <div class="home__about-text">
+          <div class="about__title">
+            <h1>Hola, soy Sebastián!</h1>
+          </div>
+          <div class="about__description-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              quia molestias nemo dolor blanditiis, atque consequuntur laborum
+              earum tempora, ducimus sapiente itaque veniam tempore odit
+              cupiditate similique ut, magni ab.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="experiencies"></section>
+    <section class="experiencies">
+      <div class="exp__container">
+        <div class="exp__title-div">
+          <h3 class="exp__title">Mis experiencias laborales</h3>
+        </div>
+
+        <div class="exp__cards">
+          <div class="card__container">
+            <div class="card__img-div">
+              <img src="" alt="" />
+            </div>
+            <div class="card__title-div">
+              <h3>Experiencia title</h3>
+            </div>
+            <div class="card__subtitle-div">
+              <h6>Empresa</h6>
+            </div>
+            <div class="card__description-div">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              deserunt placeat, tempore voluptatibus sapiente libero non
+              voluptates esse officiis distinctio iusto dolor laboriosam
+              accusantium blanditiis optio, maiores minima, nemo ducimus!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="contact"></section>
 
