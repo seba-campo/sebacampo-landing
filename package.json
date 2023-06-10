@@ -1,0 +1,11 @@
+{
+  "name": "sebacampo-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Campo <campo.sebastian44@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.9.2"
+  }
+}
